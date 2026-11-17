@@ -13,7 +13,7 @@ function checkYear(v: number, what: string, min: number, max: number): void {
 
 /** Throws RangeError for non-integer or out-of-range years. */
 export function seun(year: number, birthSolarYear: number): { year: number; age: number; pillar: Pillar } {
-  checkYear(birthSolarYear, 'birthSolarYear', 1900, 2099);
+  checkYear(birthSolarYear, 'birthSolarYear', 1899, 2099); // 1899 = solar-term year of births before 立春 1900
   checkYear(year, 'year', 1900, 2200);
   return { year, age: koreanAge(year, birthSolarYear), pillar: pillarOf(year - 4) };
 }

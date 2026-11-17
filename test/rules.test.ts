@@ -201,10 +201,16 @@ describe('yearly and monthly pillars', () => {
     for (const y of [1899, 2100, 1990.5, NaN]) expect(() => wolun(y)).toThrow(RangeError);
     expect(wolun(1900)).toHaveLength(12);
     expect(wolun(2099)).toHaveLength(12);
-    expect(() => seun(2026, 1899)).toThrow(RangeError);
+    expect(() => seun(2026, 1898)).toThrow(RangeError);
     expect(() => seun(2026.5, 1990)).toThrow(RangeError);
     expect(() => seun(2201, 1990)).toThrow(RangeError);
     expect(seun(2200, 2099).age).toBe(102);
+  });
+  it('seun accepts the solar-term year 1899 that calcManse returns for births before 立春 1900', () => {
+    const r = calcManse({ calendar: 'solar', year: 1900, month: 1, day: 1, time: { hour: 12, minute: 0 }, sex: 'M' });
+    if (!r.ok) throw new Error(r.error.code);
+    expect(r.solarYear).toBe(1899);
+    expect(seun(1950, r.solarYear).age).toBe(52);
   });
   it('yearly pillars 2026-2032', () => {
     expect([2026, 2027, 2028, 2029, 2030, 2031, 2032].map((y) => seun(y, 1990).pillar.ganzhi).join(' ')).toBe('丙午 丁未 戊申 己酉 庚戌 辛亥 壬子');
