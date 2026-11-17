@@ -1,0 +1,61 @@
+{
+  "name": "@yunttopia/saju-manseryeok",
+  "version": "0.1.0",
+  "description": "Korean saju / manseryeok (만세력) calculator in TypeScript: Four Pillars of Destiny (BaZi) pillars, Korean lunar calendar, sexagenary cycle (60 ganji), solar terms, daeun luck pillars.",
+  "keywords": [
+    "saju",
+    "manseryeok",
+    "manse",
+    "만세력",
+    "사주",
+    "four-pillars",
+    "four-pillars-of-destiny",
+    "bazi",
+    "korean-lunar-calendar",
+    "lunar-calendar",
+    "sexagenary-cycle",
+    "ganji",
+    "60-ganji",
+    "solar-terms",
+    "24-solar-terms",
+    "daeun",
+    "luck-pillars",
+    "korean",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunttopia/saju-manseryeok"
+  },
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src/*.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "make:lunar-table": "tsx src/tools/make-korean-lunar-table.ts",
+    "make:expected": "tsx test/fixtures/make-expected.ts"
+  },
+  "dependencies": {
+    "lunar-javascript": "1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "astronomy-engine": "2.1.19",
+    "korean-lunar-calendar": "0.4.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  }
+}

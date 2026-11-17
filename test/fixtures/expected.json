@@ -1,0 +1,1553 @@
+{
+  "source": "make-expected.ts",
+  "inputsSha256": "299ef24d788864601b7a287ef68ecbf9dbe47d07ecf31b9d0d18b7950f7847a0",
+  "cases": {
+    "A-1905-立春-before": {
+      "pillars": "甲辰 丁丑 甲戌 甲戌",
+      "solarYear": "1904",
+      "corrected": "1905-02-04T19:44:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子",
+      "jeolip": "小寒 1905-01-06T08:27:06.470|立春 1905-02-04T20:15:48.560",
+      "warnings": "",
+      "solarDate": "1905-02-04",
+      "lunar": "1905-01-01"
+    },
+    "A-1905-立春-same": {
+      "pillars": "甲辰 丁丑 甲戌 甲戌",
+      "solarYear": "1904",
+      "corrected": "1905-02-04T19:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅",
+      "jeolip": "小寒 1905-01-06T08:27:06.470|立春 1905-02-04T20:15:48.560",
+      "warnings": "",
+      "solarDate": "1905-02-04",
+      "lunar": "1905-01-01"
+    },
+    "A-1905-立春-after": {
+      "pillars": "乙巳 戊寅 甲戌 甲戌",
+      "solarYear": "1905",
+      "corrected": "1905-02-04T19:46:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯",
+      "jeolip": "立春 1905-02-04T20:15:48.560|惊蛰 1905-03-06T14:45:35.752",
+      "warnings": "",
+      "solarDate": "1905-02-04",
+      "lunar": "1905-01-01"
+    },
+    "A-1910-清明-before": {
+      "pillars": "庚戌 己卯 辛丑 己丑",
+      "solarYear": "1910",
+      "corrected": "1910-04-06T01:21:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|1|庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅",
+      "jeolip": "惊蛰 1910-03-06T19:56:30.223|清明 1910-04-06T01:22:55.076",
+      "warnings": "",
+      "solarDate": "1910-04-06",
+      "lunar": "1910-02-27"
+    },
+    "A-1910-清明-same": {
+      "pillars": "庚戌 己卯 辛丑 己丑",
+      "solarYear": "1910",
+      "corrected": "1910-04-06T01:22:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|10|戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰",
+      "jeolip": "惊蛰 1910-03-06T19:56:30.223|清明 1910-04-06T01:22:55.076",
+      "warnings": "",
+      "solarDate": "1910-04-06",
+      "lunar": "1910-02-27"
+    },
+    "A-1910-清明-after": {
+      "pillars": "庚戌 庚辰 辛丑 己丑",
+      "solarYear": "1910",
+      "corrected": "1910-04-06T01:23:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|10|辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯",
+      "jeolip": "清明 1910-04-06T01:22:55.076|立夏 1910-05-06T19:19:19.833",
+      "warnings": "",
+      "solarDate": "1910-04-06",
+      "lunar": "1910-02-27"
+    },
+    "A-1930-小寒-before": {
+      "pillars": "己巳 丙子 丙辰 癸巳",
+      "solarYear": "1929",
+      "corrected": "1930-01-06T09:31:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅 乙丑",
+      "jeolip": "大雪 1929-12-07T22:56:24.081|小寒 1930-01-06T10:02:31.907",
+      "warnings": "",
+      "solarDate": "1930-01-06",
+      "lunar": "1929-12-07"
+    },
+    "A-1930-小寒-same": {
+      "pillars": "己巳 丙子 丙辰 癸巳",
+      "solarYear": "1929",
+      "corrected": "1930-01-06T09:32:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|丁丑 戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥",
+      "jeolip": "大雪 1929-12-07T22:56:24.081|小寒 1930-01-06T10:02:31.907",
+      "warnings": "",
+      "solarDate": "1930-01-06",
+      "lunar": "1929-12-07"
+    },
+    "A-1930-小寒-after": {
+      "pillars": "己巳 丁丑 丙辰 癸巳",
+      "solarYear": "1929",
+      "corrected": "1930-01-06T09:33:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅",
+      "jeolip": "小寒 1930-01-06T10:02:31.907|立春 1930-02-04T21:51:07.067",
+      "warnings": "",
+      "solarDate": "1930-01-06",
+      "lunar": "1929-12-07"
+    },
+    "A-1949-芒种-before": {
+      "pillars": "己丑 己巳 丁卯 甲辰",
+      "solarYear": "1949",
+      "corrected": "1949-06-06T08:35:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|10|戊辰 丁卯 丙寅 乙丑 甲子 癸亥 壬戌 辛酉 庚申 己未 戊午",
+      "jeolip": "立夏 1949-05-06T05:36:34.362|芒种 1949-06-06T10:06:48.813",
+      "warnings": "",
+      "solarDate": "1949-06-06",
+      "lunar": "1949-05-10"
+    },
+    "A-1949-芒种-same": {
+      "pillars": "己丑 己巳 丁卯 甲辰",
+      "solarYear": "1949",
+      "corrected": "1949-06-06T08:36:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|1|庚午 辛未 壬申 癸酉 甲戌 乙亥 丙子 丁丑 戊寅 己卯 庚辰",
+      "jeolip": "立夏 1949-05-06T05:36:34.362|芒种 1949-06-06T10:06:48.813",
+      "warnings": "",
+      "solarDate": "1949-06-06",
+      "lunar": "1949-05-10"
+    },
+    "A-1949-芒种-after": {
+      "pillars": "己丑 庚午 丁卯 甲辰",
+      "solarYear": "1949",
+      "corrected": "1949-06-06T08:37:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|己巳 戊辰 丁卯 丙寅 乙丑 甲子 癸亥 壬戌 辛酉 庚申 己未",
+      "jeolip": "芒种 1949-06-06T10:06:48.813|小暑 1949-07-07T20:31:34.792",
+      "warnings": "",
+      "solarDate": "1949-06-06",
+      "lunar": "1949-05-10"
+    },
+    "A-1958-立夏-before": {
+      "pillars": "戊戌 丙辰 癸未 丙辰",
+      "solarYear": "1958",
+      "corrected": "1958-05-06T08:48:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|1|丁巳 戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯",
+      "jeolip": "清明 1958-04-05T16:12:20.956|立夏 1958-05-06T09:49:10.420",
+      "warnings": "",
+      "solarDate": "1958-05-06",
+      "lunar": "1958-03-18"
+    },
+    "A-1958-立夏-same": {
+      "pillars": "戊戌 丙辰 癸未 丙辰",
+      "solarYear": "1958",
+      "corrected": "1958-05-06T08:49:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "backward|10|乙卯 甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午 乙巳",
+      "jeolip": "清明 1958-04-05T16:12:20.956|立夏 1958-05-06T09:49:10.420",
+      "warnings": "",
+      "solarDate": "1958-05-06",
+      "lunar": "1958-03-18"
+    },
+    "A-1958-立夏-after": {
+      "pillars": "戊戌 丁巳 癸未 丙辰",
+      "solarYear": "1958",
+      "corrected": "1958-05-06T08:50:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|10|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1958-05-06T09:49:10.420|芒种 1958-06-06T14:12:10.606",
+      "warnings": "",
+      "solarDate": "1958-05-06",
+      "lunar": "1958-03-18"
+    },
+    "A-1960-白露-before": {
+      "pillars": "庚子 甲申 己亥 甲子",
+      "solarYear": "1960",
+      "corrected": "1960-09-07T23:44:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|1|乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未",
+      "jeolip": "立秋 1960-08-07T21:59:44.029|白露 1960-09-08T00:45:21.791",
+      "warnings": "",
+      "solarDate": "1960-09-08",
+      "lunar": "1960-07-18"
+    },
+    "A-1960-白露-same": {
+      "pillars": "庚子 甲申 己亥 甲子",
+      "solarYear": "1960",
+      "corrected": "1960-09-07T23:45:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "backward|10|癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉",
+      "jeolip": "立秋 1960-08-07T21:59:44.029|白露 1960-09-08T00:45:21.791",
+      "warnings": "",
+      "solarDate": "1960-09-08",
+      "lunar": "1960-07-18"
+    },
+    "A-1960-白露-after": {
+      "pillars": "庚子 乙酉 己亥 甲子",
+      "solarYear": "1960",
+      "corrected": "1960-09-07T23:46:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|10|丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未 丙申",
+      "jeolip": "白露 1960-09-08T00:45:21.791|寒露 1960-10-08T16:08:39.110",
+      "warnings": "",
+      "solarDate": "1960-09-08",
+      "lunar": "1960-07-18"
+    },
+    "A-1987-芒种-before": {
+      "pillars": "丁卯 乙巳 丙戌 甲午",
+      "solarYear": "1987",
+      "corrected": "1987-06-06T12:47:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|10|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-06-06",
+      "lunar": "1987-05-10"
+    },
+    "A-1987-芒种-same": {
+      "pillars": "丁卯 乙巳 丙戌 甲午",
+      "solarYear": "1987",
+      "corrected": "1987-06-06T12:48:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|1|丙午 丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-06-06",
+      "lunar": "1987-05-10"
+    },
+    "A-1987-芒种-after": {
+      "pillars": "丁卯 丙午 丙戌 甲午",
+      "solarYear": "1987",
+      "corrected": "1987-06-06T12:49:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未",
+      "jeolip": "芒种 1987-06-06T14:18:58.439|小暑 1987-07-08T00:38:38.731",
+      "warnings": "",
+      "solarDate": "1987-06-06",
+      "lunar": "1987-05-10"
+    },
+    "A-1988-寒露-before": {
+      "pillars": "戊辰 辛酉 丙申 癸巳",
+      "solarYear": "1988",
+      "corrected": "1988-10-08T09:13:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|1|壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申",
+      "jeolip": "白露 1988-09-07T19:11:30.872|寒露 1988-10-08T10:44:30.060",
+      "warnings": "",
+      "solarDate": "1988-10-08",
+      "lunar": "1988-08-28"
+    },
+    "A-1988-寒露-same": {
+      "pillars": "戊辰 辛酉 丙申 癸巳",
+      "solarYear": "1988",
+      "corrected": "1988-10-08T09:14:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|10|庚申 己未 戊午 丁巳 丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌",
+      "jeolip": "白露 1988-09-07T19:11:30.872|寒露 1988-10-08T10:44:30.060",
+      "warnings": "",
+      "solarDate": "1988-10-08",
+      "lunar": "1988-08-28"
+    },
+    "A-1988-寒露-after": {
+      "pillars": "戊辰 壬戌 丙申 癸巳",
+      "solarYear": "1988",
+      "corrected": "1988-10-08T09:15:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|10|癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申 癸酉",
+      "jeolip": "寒露 1988-10-08T10:44:30.060|立冬 1988-11-07T13:48:55.043",
+      "warnings": "",
+      "solarDate": "1988-10-08",
+      "lunar": "1988-08-28"
+    },
+    "A-1995-立春-before": {
+      "pillars": "甲戌 丁丑 丙寅 丙申",
+      "solarYear": "1994",
+      "corrected": "1995-02-04T15:41:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子",
+      "jeolip": "小寒 1995-01-06T04:34:04.595|立春 1995-02-04T16:12:51.190",
+      "warnings": "",
+      "solarDate": "1995-02-04",
+      "lunar": "1995-01-05"
+    },
+    "A-1995-立春-same": {
+      "pillars": "甲戌 丁丑 丙寅 丙申",
+      "solarYear": "1994",
+      "corrected": "1995-02-04T15:42:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅",
+      "jeolip": "小寒 1995-01-06T04:34:04.595|立春 1995-02-04T16:12:51.190",
+      "warnings": "",
+      "solarDate": "1995-02-04",
+      "lunar": "1995-01-05"
+    },
+    "A-1995-立春-after": {
+      "pillars": "乙亥 戊寅 丙寅 丙申",
+      "solarYear": "1995",
+      "corrected": "1995-02-04T15:43:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯",
+      "jeolip": "立春 1995-02-04T16:12:51.190|惊蛰 1995-03-06T10:16:04.056",
+      "warnings": "",
+      "solarDate": "1995-02-04",
+      "lunar": "1995-01-05"
+    },
+    "A-2000-大雪-before": {
+      "pillars": "庚辰 丁亥 己亥 丙寅",
+      "solarYear": "2000",
+      "corrected": "2000-12-07T04:06:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未 丙申 丁酉 戊戌",
+      "jeolip": "立冬 2000-11-07T11:48:03.620|大雪 2000-12-07T04:37:02.369",
+      "warnings": "",
+      "solarDate": "2000-12-07",
+      "lunar": "2000-11-12"
+    },
+    "A-2000-大雪-same": {
+      "pillars": "庚辰 丁亥 己亥 丙寅",
+      "solarYear": "2000",
+      "corrected": "2000-12-07T04:07:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|丙戌 乙酉 甲申 癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子",
+      "jeolip": "立冬 2000-11-07T11:48:03.620|大雪 2000-12-07T04:37:02.369",
+      "warnings": "",
+      "solarDate": "2000-12-07",
+      "lunar": "2000-11-12"
+    },
+    "A-2000-大雪-after": {
+      "pillars": "庚辰 戊子 己亥 丙寅",
+      "solarYear": "2000",
+      "corrected": "2000-12-07T04:08:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未 丙申 丁酉 戊戌 己亥",
+      "jeolip": "大雪 2000-12-07T04:37:02.369|小寒 2001-01-05T15:49:15.958",
+      "warnings": "",
+      "solarDate": "2000-12-07",
+      "lunar": "2000-11-12"
+    },
+    "A-2026-立春-before": {
+      "pillars": "乙巳 己丑 己酉 丙寅",
+      "solarYear": "2025",
+      "corrected": "2026-02-04T04:31:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|戊子 丁亥 丙戌 乙酉 甲申 癸未 壬午 辛巳 庚辰 己卯 戊寅",
+      "jeolip": "小寒 2026-01-05T17:23:10.232|立春 2026-02-04T05:02:08.404",
+      "warnings": "",
+      "solarDate": "2026-02-04",
+      "lunar": "2025-12-17"
+    },
+    "A-2026-立春-same": {
+      "pillars": "乙巳 己丑 己酉 丙寅",
+      "solarYear": "2025",
+      "corrected": "2026-02-04T04:32:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|庚寅 辛卯 壬辰 癸巳 甲午 乙未 丙申 丁酉 戊戌 己亥 庚子",
+      "jeolip": "小寒 2026-01-05T17:23:10.232|立春 2026-02-04T05:02:08.404",
+      "warnings": "",
+      "solarDate": "2026-02-04",
+      "lunar": "2025-12-17"
+    },
+    "A-2026-立春-after": {
+      "pillars": "丙午 庚寅 己酉 丙寅",
+      "solarYear": "2026",
+      "corrected": "2026-02-04T04:33:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|辛卯 壬辰 癸巳 甲午 乙未 丙申 丁酉 戊戌 己亥 庚子 辛丑",
+      "jeolip": "立春 2026-02-04T05:02:08.404|惊蛰 2026-03-05T22:58:59.904",
+      "warnings": "",
+      "solarDate": "2026-02-04",
+      "lunar": "2025-12-17"
+    },
+    "A-2050-小暑-before": {
+      "pillars": "庚午 壬午 戊子 乙卯",
+      "solarYear": "2050",
+      "corrected": "2050-07-07T05:31:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 2050-06-05T19:54:57.408|小暑 2050-07-07T06:02:00.298",
+      "warnings": "",
+      "solarDate": "2050-07-07",
+      "lunar": "2050-05-19"
+    },
+    "A-2050-小暑-same": {
+      "pillars": "庚午 壬午 戊子 乙卯",
+      "solarYear": "2050",
+      "corrected": "2050-07-07T05:32:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未",
+      "jeolip": "芒种 2050-06-05T19:54:57.408|小暑 2050-07-07T06:02:00.298",
+      "warnings": "",
+      "solarDate": "2050-07-07",
+      "lunar": "2050-05-19"
+    },
+    "A-2050-小暑-after": {
+      "pillars": "庚午 癸未 戊子 乙卯",
+      "solarYear": "2050",
+      "corrected": "2050-07-07T05:33:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午",
+      "jeolip": "小暑 2050-07-07T06:02:00.298|立秋 2050-08-07T15:52:36.501",
+      "warnings": "",
+      "solarDate": "2050-07-07",
+      "lunar": "2050-05-19"
+    },
+    "A-2099-小寒-before": {
+      "pillars": "戊午 甲子 壬寅 乙巳",
+      "solarYear": "2098",
+      "corrected": "2099-01-05T10:08:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申 癸酉 甲戌 乙亥",
+      "jeolip": "大雪 2098-12-06T23:12:53.831|小寒 2099-01-05T10:39:15.933",
+      "warnings": "",
+      "solarDate": "2099-01-05",
+      "lunar": "2098-12-14"
+    },
+    "A-2099-小寒-same": {
+      "pillars": "戊午 甲子 壬寅 乙巳",
+      "solarYear": "2098",
+      "corrected": "2099-01-05T10:09:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|癸亥 壬戌 辛酉 庚申 己未 戊午 丁巳 丙辰 乙卯 甲寅 癸丑",
+      "jeolip": "大雪 2098-12-06T23:12:53.831|小寒 2099-01-05T10:39:15.933",
+      "warnings": "",
+      "solarDate": "2099-01-05",
+      "lunar": "2098-12-14"
+    },
+    "A-2099-小寒-after": {
+      "pillars": "戊午 乙丑 壬寅 乙巳",
+      "solarYear": "2098",
+      "corrected": "2099-01-05T10:10:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申 癸酉 甲戌 乙亥 丙子",
+      "jeolip": "小寒 2099-01-05T10:39:15.933|立春 2099-02-03T22:09:29.088",
+      "warnings": "",
+      "solarDate": "2099-01-05",
+      "lunar": "2098-12-14"
+    },
+    "B-1990-小暑-forward-1.5-3m": {
+      "pillars": "庚午 壬午 己巳 丁卯",
+      "solarYear": "1990",
+      "corrected": "1990-07-03T05:27:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "",
+      "solarDate": "1990-07-03",
+      "lunar": "1990-L05-11"
+    },
+    "B-1990-小暑-forward-1.5+3m": {
+      "pillars": "庚午 壬午 己巳 丁卯",
+      "solarYear": "1990",
+      "corrected": "1990-07-03T05:33:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "",
+      "solarDate": "1990-07-03",
+      "lunar": "1990-L05-11"
+    },
+    "B-1990-小暑-backward-2.5-3m": {
+      "pillars": "庚午 癸未 辛巳 辛卯",
+      "solarYear": "1990",
+      "corrected": "1990-07-15T05:27:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|2|壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申",
+      "jeolip": "小暑 1990-07-07T18:00:28.305|立秋 1990-08-08T03:45:31.662",
+      "warnings": "",
+      "solarDate": "1990-07-15",
+      "lunar": "1990-L05-23"
+    },
+    "B-1990-小暑-backward-2.5+3m": {
+      "pillars": "庚午 癸未 辛巳 辛卯",
+      "solarYear": "1990",
+      "corrected": "1990-07-15T05:33:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|3|壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申",
+      "jeolip": "小暑 1990-07-07T18:00:28.305|立秋 1990-08-08T03:45:31.662",
+      "warnings": "",
+      "solarDate": "1990-07-15",
+      "lunar": "1990-L05-23"
+    },
+    "B-1985-立秋-backward-4.5-3m": {
+      "pillars": "乙丑 甲申 壬辰 乙巳",
+      "solarYear": "1985",
+      "corrected": "1985-08-21T10:31:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|4|癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-21",
+      "lunar": "1985-07-06"
+    },
+    "B-1985-立秋-backward-4.5+3m": {
+      "pillars": "乙丑 甲申 壬辰 乙巳",
+      "solarYear": "1985",
+      "corrected": "1985-08-21T10:37:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|5|癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-21",
+      "lunar": "1985-07-06"
+    },
+    "B-1985-白露-forward-7.5-3m": {
+      "pillars": "乙丑 甲申 丁亥 丁未",
+      "solarYear": "1985",
+      "corrected": "1985-08-16T13:20:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|8|乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-16",
+      "lunar": "1985-07-01"
+    },
+    "B-1985-白露-forward-7.5+3m": {
+      "pillars": "乙丑 甲申 丁亥 丁未",
+      "solarYear": "1985",
+      "corrected": "1985-08-16T13:26:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|7|乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-16",
+      "lunar": "1985-07-01"
+    },
+    "B-1958-芒种-forward-3.5-3m": {
+      "pillars": "戊戌 丁巳 甲辰 乙丑",
+      "solarYear": "1958",
+      "corrected": "1958-05-27T01:09:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|4|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1958-05-06T09:49:10.420|芒种 1958-06-06T14:12:10.606",
+      "warnings": "",
+      "solarDate": "1958-05-27",
+      "lunar": "1958-04-09"
+    },
+    "B-1958-芒种-forward-3.5+3m": {
+      "pillars": "戊戌 丁巳 甲辰 乙丑",
+      "solarYear": "1958",
+      "corrected": "1958-05-27T01:15:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|3|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1958-05-06T09:49:10.420|芒种 1958-06-06T14:12:10.606",
+      "warnings": "",
+      "solarDate": "1958-05-27",
+      "lunar": "1958-04-09"
+    },
+    "B-1987-小暑-backward-0.5-3m": {
+      "pillars": "丁卯 丁未 己未 庚午",
+      "solarYear": "1987",
+      "corrected": "1987-07-09T11:05:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|丙午 乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申",
+      "jeolip": "小暑 1987-07-08T00:38:38.731|立秋 1987-08-08T10:29:12.835",
+      "warnings": "",
+      "solarDate": "1987-07-09",
+      "lunar": "1987-06-14"
+    },
+    "B-1987-小暑-backward-0.5+3m": {
+      "pillars": "丁卯 丁未 己未 庚午",
+      "solarYear": "1987",
+      "corrected": "1987-07-09T11:11:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|丙午 乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申",
+      "jeolip": "小暑 1987-07-08T00:38:38.731|立秋 1987-08-08T10:29:12.835",
+      "warnings": "",
+      "solarDate": "1987-07-09",
+      "lunar": "1987-06-14"
+    },
+    "B-2026-寒露-forward-9.5-3m": {
+      "pillars": "丙午 丁酉 丁亥 辛丑",
+      "solarYear": "2026",
+      "corrected": "2026-09-10T02:56:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|戊戌 己亥 庚子 辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未 戊申",
+      "jeolip": "白露 2026-09-07T23:41:16.474|寒露 2026-10-08T15:29:17.494",
+      "warnings": "",
+      "solarDate": "2026-09-10",
+      "lunar": "2026-07-29"
+    },
+    "B-2026-寒露-forward-9.5+3m": {
+      "pillars": "丙午 丁酉 丁亥 壬寅",
+      "solarYear": "2026",
+      "corrected": "2026-09-10T03:02:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|9|戊戌 己亥 庚子 辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未 戊申",
+      "jeolip": "白露 2026-09-07T23:41:16.474|寒露 2026-10-08T15:29:17.494",
+      "warnings": "",
+      "solarDate": "2026-09-10",
+      "lunar": "2026-07-29"
+    },
+    "C-01": {
+      "pillars": "庚午 壬午 辛亥 甲午",
+      "solarYear": "1990",
+      "corrected": "1990-06-15T12:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|7|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "",
+      "solarDate": "1990-06-15",
+      "lunar": "1990-05-23"
+    },
+    "C-02": {
+      "pillars": "庚午 壬午 辛亥 乙未",
+      "solarYear": "1990",
+      "corrected": "1990-06-15T13:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|3|辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "",
+      "solarDate": "1990-06-15",
+      "lunar": "1990-05-23"
+    },
+    "C-03": {
+      "pillars": "乙丑 甲申 辛卯 己亥",
+      "solarYear": "1985",
+      "corrected": "1985-08-20T22:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|4|癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-20",
+      "lunar": "1985-07-05"
+    },
+    "C-04": {
+      "pillars": "乙丑 甲申 壬辰 庚子",
+      "solarYear": "1985",
+      "corrected": "1985-08-20T23:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|6|乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-20",
+      "lunar": "1985-07-05"
+    },
+    "C-05": {
+      "pillars": "己卯 丙子 戊午 壬子",
+      "solarYear": "1999",
+      "corrected": "1999-12-31T23:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅 乙丑",
+      "jeolip": "大雪 1999-12-07T22:47:27.245|小寒 2000-01-06T10:00:42.103",
+      "warnings": "",
+      "solarDate": "1999-12-31",
+      "lunar": "1999-11-24"
+    },
+    "C-06": {
+      "pillars": "己卯 丙子 戊午 壬子",
+      "solarYear": "1999",
+      "corrected": "1999-12-31T23:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|丁丑 戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥",
+      "jeolip": "大雪 1999-12-07T22:47:27.245|小寒 2000-01-06T10:00:42.103",
+      "warnings": "",
+      "solarDate": "2000-01-01",
+      "lunar": "1999-11-25"
+    },
+    "C-07": {
+      "pillars": "戊戌 甲寅 丁丑 辛亥",
+      "solarYear": "1958",
+      "corrected": "1958-03-01T22:59:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|2|乙卯 丙辰 丁巳 戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑",
+      "jeolip": "立春 1958-02-04T16:49:11.031|惊蛰 1958-03-06T11:04:52.419",
+      "warnings": "",
+      "solarDate": "1958-03-01",
+      "lunar": "1958-01-11"
+    },
+    "C-08": {
+      "pillars": "戊戌 甲寅 戊寅 壬子",
+      "solarYear": "1958",
+      "corrected": "1958-03-01T23:00:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|8|癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午 乙巳 甲辰 癸卯",
+      "jeolip": "立春 1958-02-04T16:49:11.031|惊蛰 1958-03-06T11:04:52.419",
+      "warnings": "",
+      "solarDate": "1958-03-01",
+      "lunar": "1958-01-11"
+    },
+    "C-09": {
+      "pillars": "戊戌 戊午 己卯 乙亥",
+      "solarYear": "1958",
+      "corrected": "1958-07-01T22:59:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|2|己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳",
+      "jeolip": "芒种 1958-06-06T14:12:10.606|小暑 1958-07-08T00:33:24.629",
+      "warnings": "",
+      "solarDate": "1958-07-01",
+      "lunar": "1958-05-15"
+    },
+    "C-10": {
+      "pillars": "戊戌 戊午 庚辰 丙子",
+      "solarYear": "1958",
+      "corrected": "1958-07-01T23:00:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "backward|8|丁巳 丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未",
+      "jeolip": "芒种 1958-06-06T14:12:10.606|小暑 1958-07-08T00:33:24.629",
+      "warnings": "",
+      "solarDate": "1958-07-02",
+      "lunar": "1958-05-16"
+    },
+    "C-11": {
+      "pillars": "丁卯 丙午 庚戌 丁亥",
+      "solarYear": "1987",
+      "corrected": "1987-06-30T22:59:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|8|乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未",
+      "jeolip": "芒种 1987-06-06T14:18:58.439|小暑 1987-07-08T00:38:38.731",
+      "warnings": "",
+      "solarDate": "1987-07-01",
+      "lunar": "1987-06-06"
+    },
+    "C-12": {
+      "pillars": "丁卯 丙午 辛亥 戊子",
+      "solarYear": "1987",
+      "corrected": "1987-06-30T23:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|2|丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰 丁巳",
+      "jeolip": "芒种 1987-06-06T14:18:58.439|小暑 1987-07-08T00:38:38.731",
+      "warnings": "",
+      "solarDate": "1987-07-01",
+      "lunar": "1987-06-06"
+    },
+    "C-13": {
+      "pillars": "丁卯 丙午 辛亥 己丑",
+      "solarYear": "1987",
+      "corrected": "1987-07-01T01:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|8|乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未",
+      "jeolip": "芒种 1987-06-06T14:18:58.439|小暑 1987-07-08T00:38:38.731",
+      "warnings": "",
+      "solarDate": "1987-07-01",
+      "lunar": "1987-06-06"
+    },
+    "C-14": {
+      "pillars": "乙巳 戊寅 己亥 乙亥",
+      "solarYear": "1905",
+      "corrected": "1905-03-01T22:27:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑",
+      "jeolip": "立春 1905-02-04T20:15:48.560|惊蛰 1905-03-06T14:45:35.752",
+      "warnings": "",
+      "solarDate": "1905-03-01",
+      "lunar": "1905-01-26"
+    },
+    "C-15": {
+      "pillars": "乙巳 戊寅 己亥 乙亥",
+      "solarYear": "1905",
+      "corrected": "1905-03-01T22:28:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯",
+      "jeolip": "立春 1905-02-04T20:15:48.560|惊蛰 1905-03-06T14:45:35.752",
+      "warnings": "",
+      "solarDate": "1905-03-01",
+      "lunar": "1905-01-26"
+    },
+    "C-16": {
+      "pillars": "甲辰 丙寅 甲子 甲子",
+      "solarYear": "2024",
+      "corrected": "2024-02-29T23:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|乙丑 甲子 癸亥 壬戌 辛酉 庚申 己未 戊午 丁巳 丙辰 乙卯",
+      "jeolip": "立春 2024-02-04T17:27:06.834|惊蛰 2024-03-05T11:22:44.982",
+      "warnings": "",
+      "solarDate": "2024-02-29",
+      "lunar": "2024-01-20"
+    },
+    "C-17": {
+      "pillars": "己亥 丙子 甲戌 甲子",
+      "solarYear": "1899",
+      "corrected": "1899-12-31T23:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅 乙丑",
+      "jeolip": "大雪 1899-12-07T16:04:33.268|小寒 1900-01-06T03:03:57.206",
+      "warnings": "",
+      "solarDate": "1900-01-01",
+      "lunar": "1899-12-01"
+    },
+    "C-18": {
+      "pillars": "己未 丙子 癸卯 壬子",
+      "solarYear": "2099",
+      "corrected": "2099-12-31T23:29:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|丁丑 戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥",
+      "jeolip": "大雪 2099-12-07T05:03:15.374|小寒 2100-01-05T16:29:16.491",
+      "warnings": "",
+      "solarDate": "2099-12-31",
+      "lunar": "2099-11-20"
+    },
+    "D-01": {
+      "pillars": "戊申 乙卯 丙戌 戊子",
+      "solarYear": "1908",
+      "corrected": "1908-04-01T00:01:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|9|甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午 乙巳 甲辰",
+      "jeolip": "惊蛰 1908-03-06T08:13:34.478|清明 1908-04-05T13:39:45.678",
+      "warnings": "",
+      "solarDate": "1908-04-01",
+      "lunar": "1908-03-01"
+    },
+    "D-02": {
+      "pillars": "戊申 乙卯 丙戌 戊子",
+      "solarYear": "1908",
+      "corrected": "1908-04-01T00:03:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|2|丙辰 丁巳 戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅",
+      "jeolip": "惊蛰 1908-03-06T08:13:34.478|清明 1908-04-05T13:39:45.678",
+      "warnings": "",
+      "solarDate": "1908-04-01",
+      "lunar": "1908-03-01"
+    },
+    "D-03": {
+      "pillars": "辛亥 庚子 丙子 戊子",
+      "solarYear": "1911",
+      "corrected": "1911-12-31T23:59:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|2|辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未 戊申 己酉 庚戌 辛亥",
+      "jeolip": "大雪 1911-12-08T14:07:34.272|小寒 1912-01-07T01:07:29.161",
+      "warnings": "",
+      "solarDate": "1911-12-31",
+      "lunar": "1911-11-12"
+    },
+    "D-04": {
+      "pillars": "辛亥 庚子 丙子 戊子",
+      "solarYear": "1911",
+      "corrected": "1911-12-31T23:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|己亥 戊戌 丁酉 丙申 乙未 甲午 癸巳 壬辰 辛卯 庚寅 己丑",
+      "jeolip": "大雪 1911-12-08T14:07:34.272|小寒 1912-01-07T01:07:29.161",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1912-01-01",
+      "lunar": "1911-11-13"
+    },
+    "D-05": {
+      "pillars": "辛亥 庚子 丙子 戊子",
+      "solarYear": "1911",
+      "corrected": "1912-01-01T00:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未 戊申 己酉 庚戌 辛亥",
+      "jeolip": "大雪 1911-12-08T14:07:34.272|小寒 1912-01-07T01:07:29.161",
+      "warnings": "",
+      "solarDate": "1912-01-01",
+      "lunar": "1911-11-13"
+    },
+    "D-06": {
+      "pillars": "戊子 丁巳 丁巳 庚子",
+      "solarYear": "1948",
+      "corrected": "1948-05-31T23:29:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|2|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1948-05-05T23:52:13.097|芒种 1948-06-06T04:20:19.346",
+      "warnings": "",
+      "solarDate": "1948-05-31",
+      "lunar": "1948-04-23"
+    },
+    "D-07": {
+      "pillars": "戊子 丁巳 丁巳 庚子",
+      "solarYear": "1948",
+      "corrected": "1948-05-31T23:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|9|丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午",
+      "jeolip": "立夏 1948-05-05T23:52:13.097|芒种 1948-06-06T04:20:19.346",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1948-06-01",
+      "lunar": "1948-04-24"
+    },
+    "D-08": {
+      "pillars": "戊子 丁巳 丁巳 庚子",
+      "solarYear": "1948",
+      "corrected": "1948-05-31T23:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|2|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1948-05-05T23:52:13.097|芒种 1948-06-06T04:20:19.346",
+      "warnings": "",
+      "solarDate": "1948-06-01",
+      "lunar": "1948-04-24"
+    },
+    "D-09": {
+      "pillars": "戊子 辛酉 庚子 丁亥",
+      "solarYear": "1948",
+      "corrected": "1948-09-12T21:29:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|2|庚申 己未 戊午 丁巳 丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌",
+      "jeolip": "白露 1948-09-08T03:04:58.503|寒露 1948-10-08T18:20:15.959",
+      "warnings": "",
+      "solarDate": "1948-09-12",
+      "lunar": "1948-08-10"
+    },
+    "D-10": {
+      "pillars": "戊子 辛酉 庚子 丁亥",
+      "solarYear": "1948",
+      "corrected": "1948-09-12T22:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申",
+      "jeolip": "白露 1948-09-08T03:04:58.503|寒露 1948-10-08T18:20:15.959",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1948-09-12",
+      "lunar": "1948-08-10"
+    },
+    "D-11": {
+      "pillars": "戊子 辛酉 辛丑 戊子",
+      "solarYear": "1948",
+      "corrected": "1948-09-12T23:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|2|庚申 己未 戊午 丁巳 丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌",
+      "jeolip": "白露 1948-09-08T03:04:58.503|寒露 1948-10-08T18:20:15.959",
+      "warnings": "",
+      "solarDate": "1948-09-13",
+      "lunar": "1948-08-11"
+    },
+    "D-12": {
+      "pillars": "甲午 丁卯 乙亥 丁亥",
+      "solarYear": "1954",
+      "corrected": "1954-03-20T22:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|5|戊辰 己巳 庚午 辛未 壬申 癸酉 甲戌 乙亥 丙子 丁丑 戊寅",
+      "jeolip": "惊蛰 1954-03-06T11:48:32.164|清明 1954-04-05T16:59:10.202",
+      "warnings": "",
+      "solarDate": "1954-03-20",
+      "lunar": "1954-02-16"
+    },
+    "D-13": {
+      "pillars": "甲午 丁卯 丙子 戊子",
+      "solarYear": "1954",
+      "corrected": "1954-03-20T23:15:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|5|丙寅 乙丑 甲子 癸亥 壬戌 辛酉 庚申 己未 戊午 丁巳 丙辰",
+      "jeolip": "惊蛰 1954-03-06T11:48:32.164|清明 1954-04-05T16:59:10.202",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1954-03-20",
+      "lunar": "1954-02-16"
+    },
+    "D-14": {
+      "pillars": "甲午 丁卯 丙子 戊子",
+      "solarYear": "1954",
+      "corrected": "1954-03-21T00:00:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|5|戊辰 己巳 庚午 辛未 壬申 癸酉 甲戌 乙亥 丙子 丁丑 戊寅",
+      "jeolip": "惊蛰 1954-03-06T11:48:32.164|清明 1954-04-05T16:59:10.202",
+      "warnings": "",
+      "solarDate": "1954-03-21",
+      "lunar": "1954-02-17"
+    },
+    "D-15": {
+      "pillars": "庚子 乙酉 戊申 戊午",
+      "solarYear": "1960",
+      "corrected": "1960-09-17T11:00:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "backward|3|甲申 癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌",
+      "jeolip": "白露 1960-09-08T00:45:21.791|寒露 1960-10-08T16:08:39.110",
+      "warnings": "",
+      "solarDate": "1960-09-17",
+      "lunar": "1960-07-27"
+    },
+    "D-16": {
+      "pillars": "庚子 乙酉 戊申 癸亥",
+      "solarYear": "1960",
+      "corrected": "1960-09-17T22:30:00",
+      "totalCorrectionSec": "-3600",
+      "daeun": "forward|7|丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳 甲午 乙未 丙申",
+      "jeolip": "白露 1960-09-08T00:45:21.791|寒露 1960-10-08T16:08:39.110",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1960-09-17",
+      "lunar": "1960-07-27"
+    },
+    "D-17": {
+      "pillars": "庚子 乙酉 己酉 甲子",
+      "solarYear": "1960",
+      "corrected": "1960-09-18T00:30:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|3|甲申 癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌",
+      "jeolip": "白露 1960-09-08T00:45:21.791|寒露 1960-10-08T16:08:39.110",
+      "warnings": "",
+      "solarDate": "1960-09-18",
+      "lunar": "1960-07-28"
+    },
+    "D-18": {
+      "pillars": "辛丑 丙申 乙亥 丙子",
+      "solarYear": "1961",
+      "corrected": "1961-08-09T23:59:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|1|乙未 甲午 癸巳 壬辰 辛卯 庚寅 己丑 戊子 丁亥 丙戌 乙酉",
+      "jeolip": "立秋 1961-08-08T03:48:19.334|白露 1961-09-08T06:29:12.094",
+      "warnings": "",
+      "solarDate": "1961-08-09",
+      "lunar": "1961-06-28"
+    },
+    "D-19": {
+      "pillars": "辛丑 丙申 乙亥 丙子",
+      "solarYear": "1961",
+      "corrected": "1961-08-09T23:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|丁酉 戊戌 己亥 庚子 辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未",
+      "jeolip": "立秋 1961-08-08T03:48:19.334|白露 1961-09-08T06:29:12.094",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1961-08-10",
+      "lunar": "1961-06-29"
+    },
+    "D-20": {
+      "pillars": "辛丑 丙申 乙亥 丙子",
+      "solarYear": "1961",
+      "corrected": "1961-08-09T23:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|乙未 甲午 癸巳 壬辰 辛卯 庚寅 己丑 戊子 丁亥 丙戌 乙酉",
+      "jeolip": "立秋 1961-08-08T03:48:19.334|白露 1961-09-08T06:29:12.094",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1961-08-10",
+      "lunar": "1961-06-29"
+    },
+    "D-21": {
+      "pillars": "辛丑 丙申 乙亥 丙子",
+      "solarYear": "1961",
+      "corrected": "1961-08-10T00:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|丁酉 戊戌 己亥 庚子 辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未",
+      "jeolip": "立秋 1961-08-08T03:48:19.334|白露 1961-09-08T06:29:12.094",
+      "warnings": "",
+      "solarDate": "1961-08-10",
+      "lunar": "1961-06-29"
+    },
+    "D-22": {
+      "pillars": "丁卯 乙巳 己未 乙丑",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T01:29:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "D-23": {
+      "pillars": "丁卯 乙巳 己未 甲子",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T00:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|丙午 丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "D-24": {
+      "pillars": "丁卯 乙巳 己未 乙丑",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T01:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "D-25": {
+      "pillars": "丁卯 乙巳 己未 乙丑",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T01:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|丙午 丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "D-26": {
+      "pillars": "丁卯 乙巳 己未 己巳",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T10:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "D-27": {
+      "pillars": "丁卯 庚戌 癸巳 壬子",
+      "solarYear": "1987",
+      "corrected": "1987-10-11T00:29:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|辛亥 壬子 癸丑 甲寅 乙卯 丙辰 丁巳 戊午 己未 庚申 辛酉",
+      "jeolip": "寒露 1987-10-09T04:59:40.348|立冬 1987-11-08T08:05:40.411",
+      "warnings": "",
+      "solarDate": "1987-10-11",
+      "lunar": "1987-08-19"
+    },
+    "D-28": {
+      "pillars": "丁卯 庚戌 癸巳 壬子",
+      "solarYear": "1987",
+      "corrected": "1987-10-11T00:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|己酉 戊申 丁未 丙午 乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥",
+      "jeolip": "寒露 1987-10-09T04:59:40.348|立冬 1987-11-08T08:05:40.411",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1987-10-11",
+      "lunar": "1987-08-19"
+    },
+    "D-29": {
+      "pillars": "丁卯 庚戌 癸巳 癸丑",
+      "solarYear": "1987",
+      "corrected": "1987-10-11T01:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|辛亥 壬子 癸丑 甲寅 乙卯 丙辰 丁巳 戊午 己未 庚申 辛酉",
+      "jeolip": "寒露 1987-10-09T04:59:40.348|立冬 1987-11-08T08:05:40.411",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1987-10-11",
+      "lunar": "1987-08-19"
+    },
+    "D-30": {
+      "pillars": "丁卯 庚戌 癸巳 癸丑",
+      "solarYear": "1987",
+      "corrected": "1987-10-11T02:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|1|己酉 戊申 丁未 丙午 乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥",
+      "jeolip": "寒露 1987-10-09T04:59:40.348|立冬 1987-11-08T08:05:40.411",
+      "warnings": "",
+      "solarDate": "1987-10-11",
+      "lunar": "1987-08-19"
+    },
+    "D-31": {
+      "pillars": "戊辰 丁巳 癸亥 癸丑",
+      "solarYear": "1988",
+      "corrected": "1988-05-08T01:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|丙辰 乙卯 甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午",
+      "jeolip": "立夏 1988-05-05T16:01:43.076|芒种 1988-06-05T20:14:52.787",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1988-05-08",
+      "lunar": "1988-03-23"
+    },
+    "D-32": {
+      "pillars": "戊辰 壬戌 丁酉 辛丑",
+      "solarYear": "1988",
+      "corrected": "1988-10-09T01:00:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|10|癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申 癸酉",
+      "jeolip": "寒露 1988-10-08T10:44:30.060|立冬 1988-11-07T13:48:55.043",
+      "warnings": "AMBIGUOUS_LOCAL_TIME",
+      "solarDate": "1988-10-09",
+      "lunar": "1988-08-29"
+    },
+    "E-01": {
+      "pillars": "癸卯 乙卯 己卯 己巳",
+      "solarYear": "2023",
+      "corrected": "2023-03-22T09:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|5|甲寅 癸丑 壬子 辛亥 庚戌 己酉 戊申 丁未 丙午 乙巳 甲辰",
+      "jeolip": "惊蛰 2023-03-06T05:36:14.090|清明 2023-04-05T10:13:03.912",
+      "warnings": "",
+      "solarDate": "2023-03-22",
+      "lunar": "2023-L02-01"
+    },
+    "E-02": {
+      "pillars": "癸卯 丙辰 丁未 乙巳",
+      "solarYear": "2023",
+      "corrected": "2023-04-19T10:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|6|丁巳 戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯",
+      "jeolip": "清明 2023-04-05T10:13:03.912|立夏 2023-05-06T03:18:45.759",
+      "warnings": "",
+      "solarDate": "2023-04-19",
+      "lunar": "2023-L02-29"
+    },
+    "E-03": {
+      "pillars": "庚子 辛巳 丙寅 甲午",
+      "solarYear": "2020",
+      "corrected": "2020-05-23T11:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|4|壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰",
+      "jeolip": "立夏 2020-05-05T09:51:23.367|芒种 2020-06-05T13:58:26.074",
+      "warnings": "",
+      "solarDate": "2020-05-23",
+      "lunar": "2020-L04-01"
+    },
+    "E-04": {
+      "pillars": "丁卯 丙午 庚寅 壬午",
+      "solarYear": "1987",
+      "corrected": "1987-06-10T11:45:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰 丁巳",
+      "jeolip": "芒种 1987-06-06T14:18:58.439|小暑 1987-07-08T00:38:38.731",
+      "warnings": "",
+      "solarDate": "1987-06-10",
+      "lunar": "1987-05-14"
+    },
+    "E-05": {
+      "pillars": "丁卯 乙巳 丙戌 甲午",
+      "solarYear": "1987",
+      "corrected": "1987-06-06T12:45:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|10|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-06-06",
+      "lunar": "1987-05-10"
+    },
+    "E-06": {
+      "pillars": "壬辰 甲辰 辛亥 癸巳",
+      "solarYear": "2012",
+      "corrected": "2012-04-20T09:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|5|癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午 癸巳",
+      "jeolip": "清明 2012-04-04T18:05:36.835|立夏 2012-05-05T11:19:40.847",
+      "warnings": "",
+      "solarDate": "2012-04-20",
+      "lunar": "2012-03-30"
+    },
+    "E-07": {
+      "pillars": "丁酉 丙午 壬午 乙巳",
+      "solarYear": "2017",
+      "corrected": "2017-06-24T10:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|6|乙巳 甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未",
+      "jeolip": "芒种 2017-06-05T20:36:36.125|小暑 2017-07-07T06:50:41.869",
+      "warnings": "",
+      "solarDate": "2017-06-24",
+      "lunar": "2017-L05-01"
+    },
+    "E-08": {
+      "pillars": "甲戌 丁丑 丙寅 甲午",
+      "solarYear": "1994",
+      "corrected": "1995-02-04T11:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅",
+      "jeolip": "小寒 1995-01-06T04:34:04.595|立春 1995-02-04T16:12:51.190",
+      "warnings": "",
+      "solarDate": "1995-02-04",
+      "lunar": "1995-01-05"
+    },
+    "E-09": {
+      "pillars": "甲子 乙亥 辛酉 甲午",
+      "solarYear": "1984",
+      "corrected": "1984-11-23T12:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|5|丙子 丁丑 戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌",
+      "jeolip": "立冬 1984-11-07T14:45:31.803|大雪 1984-12-07T07:28:03.221",
+      "warnings": "",
+      "solarDate": "1984-11-23",
+      "lunar": "1984-L10-01"
+    },
+    "E-10": {
+      "pillars": "癸丑 甲子 丁未 丁未",
+      "solarYear": "2033",
+      "corrected": "2033-12-22T13:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|5|乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申 癸酉 甲戌 乙亥",
+      "jeolip": "大雪 2033-12-07T04:44:56.217|小寒 2034-01-05T16:04:31.342",
+      "warnings": "",
+      "solarDate": "2033-12-22",
+      "lunar": "2033-L11-01"
+    },
+    "E-11": {
+      "pillars": "丁卯 乙巳 丁丑 甲辰",
+      "solarYear": "1987",
+      "corrected": "1987-05-28T08:45:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|7|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "",
+      "solarDate": "1987-05-28",
+      "lunar": "1987-05-01"
+    },
+    "E-12": {
+      "pillars": "壬辰 甲辰 壬子 乙巳",
+      "solarYear": "2012",
+      "corrected": "2012-04-21T10:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|6|癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午 癸巳",
+      "jeolip": "清明 2012-04-04T18:05:36.835|立夏 2012-05-05T11:19:40.847",
+      "warnings": "",
+      "solarDate": "2012-04-21",
+      "lunar": "2012-L03-01"
+    },
+    "E-13": {
+      "error": "INVALID_LUNAR_DATE/NO_SUCH_MONTH"
+    },
+    "E-14": {
+      "error": "INVALID_LUNAR_DATE/NO_SUCH_MONTH"
+    },
+    "E-15": {
+      "pillars": "己亥 丙子 甲戌 辛未",
+      "solarYear": "1899",
+      "corrected": "1900-01-01T13:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|8|乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅 乙丑",
+      "jeolip": "大雪 1899-12-07T16:04:33.268|小寒 1900-01-06T03:03:57.206",
+      "warnings": "",
+      "solarDate": "1900-01-01",
+      "lunar": "1899-12-01"
+    },
+    "E-16": {
+      "pillars": "己未 丙子 癸未 丁巳",
+      "solarYear": "2099",
+      "corrected": "2099-12-12T09:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|8|丁丑 戊寅 己卯 庚辰 辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥",
+      "jeolip": "大雪 2099-12-07T05:03:15.374|小寒 2100-01-05T16:29:16.491",
+      "warnings": "",
+      "solarDate": "2099-12-12",
+      "lunar": "2099-11-01"
+    },
+    "E-17": {
+      "pillars": "甲寅 庚午 庚辰 辛巳",
+      "solarYear": "1914",
+      "corrected": "1914-06-23T10:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|5|辛未 壬申 癸酉 甲戌 乙亥 丙子 丁丑 戊寅 己卯 庚辰 辛巳",
+      "jeolip": "芒种 1914-06-06T22:59:56.429|小暑 1914-07-08T09:27:11.514",
+      "warnings": "",
+      "solarDate": "1914-06-23",
+      "lunar": "1914-05-30"
+    },
+    "E-18": {
+      "pillars": "庚午 己卯 壬寅 丙午",
+      "solarYear": "2050",
+      "corrected": "2050-03-23T11:45:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|6|戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰",
+      "jeolip": "惊蛰 2050-03-05T18:32:50.023|清明 2050-04-04T23:03:21.472",
+      "warnings": "",
+      "solarDate": "2050-03-23",
+      "lunar": "2050-03-01"
+    },
+    "F-01": {
+      "pillars": "庚午 壬午 辛亥 -",
+      "solarYear": "1990",
+      "corrected": "1990-06-15T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|7|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "",
+      "solarDate": "1990-06-15",
+      "lunar": "1990-05-23"
+    },
+    "F-02": {
+      "pillars": "甲戌 丁丑 丙寅 -",
+      "solarYear": "1994",
+      "corrected": "1995-02-04T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳 戊辰 丁卯 丙寅",
+      "jeolip": "小寒 1995-01-06T04:34:04.595|立春 1995-02-04T16:12:51.190",
+      "warnings": "JEOLIP_DAY_TIME_UNKNOWN",
+      "solarDate": "1995-02-04",
+      "lunar": "1995-01-05"
+    },
+    "F-03": {
+      "pillars": "庚午 壬午 壬寅 -",
+      "solarYear": "1990",
+      "corrected": "1990-06-06T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1990-06-06T07:46:17.673|小暑 1990-07-07T18:00:28.305",
+      "warnings": "JEOLIP_DAY_TIME_UNKNOWN",
+      "solarDate": "1990-06-06",
+      "lunar": "1990-05-14"
+    },
+    "F-04": {
+      "pillars": "丁卯 乙巳 丙戌 -",
+      "solarYear": "1987",
+      "corrected": "1987-06-06T10:30:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|1|丙午 丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "JEOLIP_DAY_TIME_UNKNOWN",
+      "solarDate": "1987-06-06",
+      "lunar": "1987-05-10"
+    },
+    "F-05": {
+      "pillars": "乙丑 甲申 辛卯 -",
+      "solarYear": "1985",
+      "corrected": "1985-08-20T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|4|癸未 壬午 辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉",
+      "jeolip": "立秋 1985-08-07T23:04:15.550|白露 1985-09-08T01:53:00.975",
+      "warnings": "",
+      "solarDate": "1985-08-20",
+      "lunar": "1985-07-05"
+    },
+    "H-01": {
+      "pillars": "乙巳 庚辰 癸卯 戊午",
+      "solarYear": "1905",
+      "corrected": "1905-05-04T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳",
+      "jeolip": "清明 1905-04-05T20:14:28.065|立夏 1905-05-06T14:14:04.048",
+      "warnings": "",
+      "solarDate": "1905-05-04",
+      "lunar": "1905-04-01"
+    },
+    "H-02": {
+      "pillars": "癸卯 辛酉 壬子 丙午",
+      "solarYear": "1903",
+      "corrected": "1903-09-21T11:30:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|6|壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰 己巳 庚午 辛未 壬申",
+      "jeolip": "白露 1903-09-09T05:42:21.258|寒露 1903-10-09T20:41:44.430",
+      "warnings": "",
+      "solarDate": "1903-09-21",
+      "lunar": "1903-08-01"
+    },
+    "I-01": {
+      "pillars": "丁卯 乙巳 己未 甲子",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T00:40:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "backward|1|甲辰 癸卯 壬寅 辛丑 庚子 己亥 戊戌 丁酉 丙申 乙未 甲午",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "I-02": {
+      "pillars": "丁卯 乙巳 己未 甲子",
+      "solarYear": "1987",
+      "corrected": "1987-05-10T00:59:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|9|丙午 丁未 戊申 己酉 庚戌 辛亥 壬子 癸丑 甲寅 乙卯 丙辰",
+      "jeolip": "立夏 1987-05-06T10:05:34.782|芒种 1987-06-06T14:18:58.439",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1987-05-10",
+      "lunar": "1987-04-13"
+    },
+    "I-03": {
+      "pillars": "戊辰 丁巳 癸亥 壬子",
+      "solarYear": "1988",
+      "corrected": "1988-05-08T00:40:00",
+      "totalCorrectionSec": "-5400",
+      "daeun": "forward|10|戊午 己未 庚申 辛酉 壬戌 癸亥 甲子 乙丑 丙寅 丁卯 戊辰",
+      "jeolip": "立夏 1988-05-05T16:01:43.076|芒种 1988-06-05T20:14:52.787",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1988-05-08",
+      "lunar": "1988-03-23"
+    },
+    "I-04": {
+      "pillars": "辛丑 丙申 乙亥 丙子",
+      "solarYear": "1961",
+      "corrected": "1961-08-09T23:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|10|丁酉 戊戌 己亥 庚子 辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未",
+      "jeolip": "立秋 1961-08-08T03:48:19.334|白露 1961-09-08T06:29:12.094",
+      "warnings": "NONEXISTENT_LOCAL_TIME",
+      "solarDate": "1961-08-10",
+      "lunar": "1961-06-29"
+    },
+    "I-05": {
+      "pillars": "乙巳 庚辰 癸卯 癸亥",
+      "solarYear": "1905",
+      "corrected": "1905-05-04T22:40:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳",
+      "jeolip": "清明 1905-04-05T20:14:28.065|立夏 1905-05-06T14:14:04.048",
+      "warnings": "",
+      "solarDate": "1905-05-04",
+      "lunar": "1905-04-01"
+    },
+    "I-06": {
+      "pillars": "庚戌 壬午 辛亥 乙未",
+      "solarYear": "1910",
+      "corrected": "1910-06-15T13:10:00",
+      "totalCorrectionSec": "0",
+      "daeun": "backward|3|辛巳 庚辰 己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未",
+      "jeolip": "芒种 1910-06-06T23:56:20.162|小暑 1910-07-08T10:21:01.862",
+      "warnings": "",
+      "solarDate": "1910-06-15",
+      "lunar": "1910-05-09"
+    },
+    "I-07": {
+      "pillars": "庚戌 壬午 壬子 庚子",
+      "solarYear": "1910",
+      "corrected": "1910-06-15T23:10:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|7|癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯 壬辰 癸巳",
+      "jeolip": "芒种 1910-06-06T23:56:20.162|小暑 1910-07-08T10:21:01.862",
+      "warnings": "",
+      "solarDate": "1910-06-15",
+      "lunar": "1910-05-09"
+    },
+    "I-08": {
+      "pillars": "乙巳 庚辰 癸卯 戊午",
+      "solarYear": "1905",
+      "corrected": "1905-05-04T12:59:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "forward|1|辛巳 壬午 癸未 甲申 乙酉 丙戌 丁亥 戊子 己丑 庚寅 辛卯",
+      "jeolip": "清明 1905-04-05T20:14:28.065|立夏 1905-05-06T14:14:04.048",
+      "warnings": "",
+      "solarDate": "1905-05-04",
+      "lunar": "1905-04-01"
+    },
+    "I-09": {
+      "pillars": "乙巳 庚辰 癸卯 己未",
+      "solarYear": "1905",
+      "corrected": "1905-05-04T13:00:00",
+      "totalCorrectionSec": "-1800",
+      "daeun": "backward|10|己卯 戊寅 丁丑 丙子 乙亥 甲戌 癸酉 壬申 辛未 庚午 己巳",
+      "jeolip": "清明 1905-04-05T20:14:28.065|立夏 1905-05-06T14:14:04.048",
+      "warnings": "",
+      "solarDate": "1905-05-04",
+      "lunar": "1905-04-01"
+    },
+    "I-10": {
+      "pillars": "辛亥 庚子 丙子 戊子",
+      "solarYear": "1911",
+      "corrected": "1911-12-31T23:30:00",
+      "totalCorrectionSec": "0",
+      "daeun": "forward|2|辛丑 壬寅 癸卯 甲辰 乙巳 丙午 丁未 戊申 己酉 庚戌 辛亥",
+      "jeolip": "大雪 1911-12-08T14:07:34.272|小寒 1912-01-07T01:07:29.161",
+      "warnings": "",
+      "solarDate": "1911-12-31",
+      "lunar": "1911-11-12"
+    },
+    "G-01": {
+      "error": "INVALID_INPUT"
+    },
+    "G-02": {
+      "error": "INVALID_INPUT"
+    },
+    "G-03": {
+      "error": "INVALID_INPUT"
+    },
+    "G-04": {
+      "error": "INVALID_INPUT"
+    },
+    "G-05": {
+      "error": "INVALID_INPUT"
+    },
+    "G-06": {
+      "error": "OUT_OF_RANGE"
+    },
+    "G-07": {
+      "error": "OUT_OF_RANGE"
+    },
+    "G-08": {
+      "error": "INVALID_INPUT"
+    },
+    "G-09": {
+      "error": "INVALID_INPUT"
+    },
+    "G-10": {
+      "error": "INVALID_LUNAR_DATE/NO_SUCH_MONTH"
+    },
+    "G-11": {
+      "error": "INVALID_LUNAR_DATE/DAY_OUT_OF_MONTH"
+    },
+    "G-12": {
+      "error": "INVALID_INPUT"
+    },
+    "G-13": {
+      "error": "OUT_OF_RANGE"
+    },
+    "G-14": {
+      "error": "OUT_OF_RANGE"
+    },
+    "G-15": {
+      "error": "INVALID_INPUT"
+    }
+  }
+}

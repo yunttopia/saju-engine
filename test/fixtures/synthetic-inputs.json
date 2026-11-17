@@ -1,0 +1,2137 @@
+{
+  "description": "Synthetic boundary inputs for the manse engine (inputs only; expected values are in expected.json). G-* cases are invalid inputs.",
+  "cases": [
+    {
+      "id": "A-1905-立春-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 20,
+          "minute": 14
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1905-立春-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 20,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1905-立春-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 20,
+          "minute": 16
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1910-清明-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1910,
+        "month": 4,
+        "day": 6,
+        "time": {
+          "hour": 1,
+          "minute": 21
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1910-清明-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1910,
+        "month": 4,
+        "day": 6,
+        "time": {
+          "hour": 1,
+          "minute": 22
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1910-清明-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1910,
+        "month": 4,
+        "day": 6,
+        "time": {
+          "hour": 1,
+          "minute": 23
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1930-小寒-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1930,
+        "month": 1,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 1
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1930-小寒-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1930,
+        "month": 1,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 2
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1930-小寒-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1930,
+        "month": 1,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 3
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1949-芒种-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1949,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 5
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1949-芒种-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1949,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 6
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1949-芒种-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1949,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 10,
+          "minute": 7
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1958-立夏-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 5,
+        "day": 6,
+        "time": {
+          "hour": 9,
+          "minute": 48
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1958-立夏-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 5,
+        "day": 6,
+        "time": {
+          "hour": 9,
+          "minute": 49
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1958-立夏-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 5,
+        "day": 6,
+        "time": {
+          "hour": 9,
+          "minute": 50
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1960-白露-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 8,
+        "time": {
+          "hour": 0,
+          "minute": 44
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1960-白露-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 8,
+        "time": {
+          "hour": 0,
+          "minute": 45
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1960-白露-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 8,
+        "time": {
+          "hour": 0,
+          "minute": 46
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1987-芒种-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 14,
+          "minute": 17
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1987-芒种-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 14,
+          "minute": 18
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1987-芒种-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 6,
+        "day": 6,
+        "time": {
+          "hour": 14,
+          "minute": 19
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1988-寒露-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 10,
+        "day": 8,
+        "time": {
+          "hour": 10,
+          "minute": 43
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1988-寒露-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 10,
+        "day": 8,
+        "time": {
+          "hour": 10,
+          "minute": 44
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1988-寒露-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 10,
+        "day": 8,
+        "time": {
+          "hour": 10,
+          "minute": 45
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1995-立春-before",
+      "input": {
+        "calendar": "solar",
+        "year": 1995,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 16,
+          "minute": 11
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-1995-立春-same",
+      "input": {
+        "calendar": "solar",
+        "year": 1995,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 16,
+          "minute": 12
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-1995-立春-after",
+      "input": {
+        "calendar": "solar",
+        "year": 1995,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 16,
+          "minute": 13
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2000-大雪-before",
+      "input": {
+        "calendar": "solar",
+        "year": 2000,
+        "month": 12,
+        "day": 7,
+        "time": {
+          "hour": 4,
+          "minute": 36
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2000-大雪-same",
+      "input": {
+        "calendar": "solar",
+        "year": 2000,
+        "month": 12,
+        "day": 7,
+        "time": {
+          "hour": 4,
+          "minute": 37
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-2000-大雪-after",
+      "input": {
+        "calendar": "solar",
+        "year": 2000,
+        "month": 12,
+        "day": 7,
+        "time": {
+          "hour": 4,
+          "minute": 38
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2026-立春-before",
+      "input": {
+        "calendar": "solar",
+        "year": 2026,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 5,
+          "minute": 1
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2026-立春-same",
+      "input": {
+        "calendar": "solar",
+        "year": 2026,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 5,
+          "minute": 2
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-2026-立春-after",
+      "input": {
+        "calendar": "solar",
+        "year": 2026,
+        "month": 2,
+        "day": 4,
+        "time": {
+          "hour": 5,
+          "minute": 3
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2050-小暑-before",
+      "input": {
+        "calendar": "solar",
+        "year": 2050,
+        "month": 7,
+        "day": 7,
+        "time": {
+          "hour": 6,
+          "minute": 1
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2050-小暑-same",
+      "input": {
+        "calendar": "solar",
+        "year": 2050,
+        "month": 7,
+        "day": 7,
+        "time": {
+          "hour": 6,
+          "minute": 2
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-2050-小暑-after",
+      "input": {
+        "calendar": "solar",
+        "year": 2050,
+        "month": 7,
+        "day": 7,
+        "time": {
+          "hour": 6,
+          "minute": 3
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2099-小寒-before",
+      "input": {
+        "calendar": "solar",
+        "year": 2099,
+        "month": 1,
+        "day": 5,
+        "time": {
+          "hour": 10,
+          "minute": 38
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "A-2099-小寒-same",
+      "input": {
+        "calendar": "solar",
+        "year": 2099,
+        "month": 1,
+        "day": 5,
+        "time": {
+          "hour": 10,
+          "minute": 39
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "A-2099-小寒-after",
+      "input": {
+        "calendar": "solar",
+        "year": 2099,
+        "month": 1,
+        "day": 5,
+        "time": {
+          "hour": 10,
+          "minute": 40
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1990-小暑-forward-1.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 7,
+        "day": 3,
+        "time": {
+          "hour": 5,
+          "minute": 57
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1990-小暑-forward-1.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 7,
+        "day": 3,
+        "time": {
+          "hour": 6,
+          "minute": 3
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1990-小暑-backward-2.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 7,
+        "day": 15,
+        "time": {
+          "hour": 5,
+          "minute": 57
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "B-1990-小暑-backward-2.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 7,
+        "day": 15,
+        "time": {
+          "hour": 6,
+          "minute": 3
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "B-1985-立秋-backward-4.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 21,
+        "time": {
+          "hour": 11,
+          "minute": 1
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1985-立秋-backward-4.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 21,
+        "time": {
+          "hour": 11,
+          "minute": 7
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1985-白露-forward-7.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 16,
+        "time": {
+          "hour": 13,
+          "minute": 50
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "B-1985-白露-forward-7.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 16,
+        "time": {
+          "hour": 13,
+          "minute": 56
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "B-1958-芒种-forward-3.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 5,
+        "day": 27,
+        "time": {
+          "hour": 2,
+          "minute": 9
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1958-芒种-forward-3.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 5,
+        "day": 27,
+        "time": {
+          "hour": 2,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1987-小暑-backward-0.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 7,
+        "day": 9,
+        "time": {
+          "hour": 12,
+          "minute": 35
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-1987-小暑-backward-0.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 7,
+        "day": 9,
+        "time": {
+          "hour": 12,
+          "minute": 41
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-2026-寒露-forward-9.5-3m",
+      "input": {
+        "calendar": "solar",
+        "year": 2026,
+        "month": 9,
+        "day": 10,
+        "time": {
+          "hour": 3,
+          "minute": 26
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "B-2026-寒露-forward-9.5+3m",
+      "input": {
+        "calendar": "solar",
+        "year": 2026,
+        "month": 9,
+        "day": 10,
+        "time": {
+          "hour": 3,
+          "minute": 32
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 13,
+          "minute": 29
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 13,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-03",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 20,
+        "time": {
+          "hour": 23,
+          "minute": 29
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-04",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 20,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-05",
+      "input": {
+        "calendar": "solar",
+        "year": 1999,
+        "month": 12,
+        "day": 31,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-06",
+      "input": {
+        "calendar": "solar",
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 29
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-07",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 3,
+        "day": 1,
+        "time": {
+          "hour": 22,
+          "minute": 59
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-08",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 3,
+        "day": 1,
+        "time": {
+          "hour": 23,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-09",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 7,
+        "day": 1,
+        "time": {
+          "hour": 23,
+          "minute": 59
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-10",
+      "input": {
+        "calendar": "solar",
+        "year": 1958,
+        "month": 7,
+        "day": 2,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-11",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 7,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 29
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-12",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 7,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-13",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 7,
+        "day": 1,
+        "time": {
+          "hour": 2,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-14",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 3,
+        "day": 1,
+        "time": {
+          "hour": 22,
+          "minute": 57
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-15",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 3,
+        "day": 1,
+        "time": {
+          "hour": 22,
+          "minute": 58
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-16",
+      "input": {
+        "calendar": "solar",
+        "year": 2024,
+        "month": 2,
+        "day": 29,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "C-17",
+      "input": {
+        "calendar": "solar",
+        "year": 1900,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "C-18",
+      "input": {
+        "calendar": "solar",
+        "year": 2099,
+        "month": 12,
+        "day": 31,
+        "time": {
+          "hour": 23,
+          "minute": 59
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1908,
+        "month": 4,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 1
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1908,
+        "month": 4,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 3
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-03",
+      "input": {
+        "calendar": "solar",
+        "year": 1911,
+        "month": 12,
+        "day": 31,
+        "time": {
+          "hour": 23,
+          "minute": 59
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-04",
+      "input": {
+        "calendar": "solar",
+        "year": 1912,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-05",
+      "input": {
+        "calendar": "solar",
+        "year": 1912,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-06",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 5,
+        "day": 31,
+        "time": {
+          "hour": 23,
+          "minute": 59
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-07",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 6,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-08",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 6,
+        "day": 1,
+        "time": {
+          "hour": 1,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-09",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 9,
+        "day": 12,
+        "time": {
+          "hour": 22,
+          "minute": 59
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-10",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 9,
+        "day": 12,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-11",
+      "input": {
+        "calendar": "solar",
+        "year": 1948,
+        "month": 9,
+        "day": 13,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-12",
+      "input": {
+        "calendar": "solar",
+        "year": 1954,
+        "month": 3,
+        "day": 20,
+        "time": {
+          "hour": 23,
+          "minute": 29
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-13",
+      "input": {
+        "calendar": "solar",
+        "year": 1954,
+        "month": 3,
+        "day": 20,
+        "time": {
+          "hour": 23,
+          "minute": 45
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-14",
+      "input": {
+        "calendar": "solar",
+        "year": 1954,
+        "month": 3,
+        "day": 21,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-15",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 17,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-16",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 17,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-17",
+      "input": {
+        "calendar": "solar",
+        "year": 1960,
+        "month": 9,
+        "day": 18,
+        "time": {
+          "hour": 0,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-18",
+      "input": {
+        "calendar": "solar",
+        "year": 1961,
+        "month": 8,
+        "day": 9,
+        "time": {
+          "hour": 23,
+          "minute": 59
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-19",
+      "input": {
+        "calendar": "solar",
+        "year": 1961,
+        "month": 8,
+        "day": 10,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-20",
+      "input": {
+        "calendar": "solar",
+        "year": 1961,
+        "month": 8,
+        "day": 10,
+        "time": {
+          "hour": 0,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-21",
+      "input": {
+        "calendar": "solar",
+        "year": 1961,
+        "month": 8,
+        "day": 10,
+        "time": {
+          "hour": 0,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-22",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 1,
+          "minute": 59
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-23",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 2,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-24",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 2,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-25",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 3,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-26",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-27",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 10,
+        "day": 11,
+        "time": {
+          "hour": 1,
+          "minute": 59
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-28",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 10,
+        "day": 11,
+        "time": {
+          "hour": 2,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-29",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 10,
+        "day": 11,
+        "time": {
+          "hour": 2,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-30",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 10,
+        "day": 11,
+        "time": {
+          "hour": 3,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "D-31",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 5,
+        "day": 8,
+        "time": {
+          "hour": 2,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "D-32",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 10,
+        "day": 9,
+        "time": {
+          "hour": 2,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-01",
+      "input": {
+        "calendar": "lunar",
+        "year": 2023,
+        "month": 2,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 10,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-02",
+      "input": {
+        "calendar": "lunar",
+        "year": 2023,
+        "month": 2,
+        "day": 29,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 11,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-03",
+      "input": {
+        "calendar": "lunar",
+        "year": 2020,
+        "month": 4,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 12,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-04",
+      "input": {
+        "calendar": "lunar",
+        "year": 1987,
+        "month": 5,
+        "day": 14,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 13,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-05",
+      "input": {
+        "calendar": "lunar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 14,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-06",
+      "input": {
+        "calendar": "lunar",
+        "year": 2012,
+        "month": 3,
+        "day": 30,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 10,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-07",
+      "input": {
+        "calendar": "lunar",
+        "year": 2017,
+        "month": 5,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 11,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-08",
+      "input": {
+        "calendar": "lunar",
+        "year": 1995,
+        "month": 1,
+        "day": 5,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 12,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-09",
+      "input": {
+        "calendar": "lunar",
+        "year": 1984,
+        "month": 10,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 13,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-10",
+      "input": {
+        "calendar": "lunar",
+        "year": 2033,
+        "month": 11,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 14,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-11",
+      "input": {
+        "calendar": "lunar",
+        "year": 1987,
+        "month": 5,
+        "day": 1,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 10,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-12",
+      "input": {
+        "calendar": "lunar",
+        "year": 2012,
+        "month": 3,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 11,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-13",
+      "input": {
+        "calendar": "lunar",
+        "year": 2012,
+        "month": 4,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 12,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-14",
+      "input": {
+        "calendar": "lunar",
+        "year": 2017,
+        "month": 6,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": {
+          "hour": 13,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-15",
+      "input": {
+        "calendar": "lunar",
+        "year": 1899,
+        "month": 12,
+        "day": 1,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 14,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-16",
+      "input": {
+        "calendar": "lunar",
+        "year": 2099,
+        "month": 11,
+        "day": 1,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 10,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "E-17",
+      "input": {
+        "calendar": "lunar",
+        "year": 1914,
+        "month": 5,
+        "day": 30,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 11,
+          "minute": 15
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "E-18",
+      "input": {
+        "calendar": "lunar",
+        "year": 2050,
+        "month": 3,
+        "day": 1,
+        "isLeapMonth": false,
+        "time": {
+          "hour": 12,
+          "minute": 15
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "F-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 6,
+        "day": 15,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "F-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1995,
+        "month": 2,
+        "day": 4,
+        "time": null,
+        "sex": "F"
+      }
+    },
+    {
+      "id": "F-03",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 6,
+        "day": 6,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "F-04",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 6,
+        "day": 6,
+        "time": null,
+        "sex": "F"
+      }
+    },
+    {
+      "id": "F-05",
+      "input": {
+        "calendar": "solar",
+        "year": 1985,
+        "month": 8,
+        "day": 20,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "H-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 5,
+        "day": 4,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "H-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1903,
+        "month": 9,
+        "day": 21,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "I-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 2,
+          "minute": 10
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "I-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1987,
+        "month": 5,
+        "day": 10,
+        "time": {
+          "hour": 2,
+          "minute": 29
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "I-03",
+      "input": {
+        "calendar": "solar",
+        "year": 1988,
+        "month": 5,
+        "day": 8,
+        "time": {
+          "hour": 2,
+          "minute": 10
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "I-04",
+      "input": {
+        "calendar": "solar",
+        "year": 1961,
+        "month": 8,
+        "day": 10,
+        "time": {
+          "hour": 0,
+          "minute": 29
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "I-05",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 5,
+        "day": 4,
+        "time": {
+          "hour": 23,
+          "minute": 10
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "I-06",
+      "input": {
+        "calendar": "solar",
+        "year": 1910,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 13,
+          "minute": 10
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "I-07",
+      "input": {
+        "calendar": "solar",
+        "year": 1910,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 23,
+          "minute": 10
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "I-08",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 5,
+        "day": 4,
+        "time": {
+          "hour": 13,
+          "minute": 29
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "I-09",
+      "input": {
+        "calendar": "solar",
+        "year": 1905,
+        "month": 5,
+        "day": 4,
+        "time": {
+          "hour": 13,
+          "minute": 30
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "I-10",
+      "input": {
+        "calendar": "solar",
+        "year": 1911,
+        "month": 12,
+        "day": 31,
+        "time": {
+          "hour": 23,
+          "minute": 30
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "G-01",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 2,
+        "day": 29,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-02",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 13,
+        "day": 1,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-03",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 24,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-04",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 12,
+          "minute": 60
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-05",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "X"
+      }
+    },
+    {
+      "id": "G-06",
+      "input": {
+        "calendar": "solar",
+        "year": 1899,
+        "month": 12,
+        "day": 31,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-07",
+      "input": {
+        "calendar": "solar",
+        "year": 2100,
+        "month": 1,
+        "day": 1,
+        "time": {
+          "hour": 0,
+          "minute": 0
+        },
+        "sex": "F"
+      }
+    },
+    {
+      "id": "G-08",
+      "input": {
+        "calendar": "solar",
+        "year": 1990,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M",
+        "isLeapMonth": true
+      }
+    },
+    {
+      "id": "G-09",
+      "input": {
+        "calendar": "solar",
+        "year": 1990.5,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-10",
+      "input": {
+        "calendar": "lunar",
+        "year": 2023,
+        "month": 3,
+        "day": 1,
+        "isLeapMonth": true,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-11",
+      "input": {
+        "calendar": "lunar",
+        "year": 2023,
+        "month": 1,
+        "day": 30,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-12",
+      "input": {
+        "calendar": "lunar",
+        "year": 2023,
+        "month": 1,
+        "day": 31,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-13",
+      "input": {
+        "calendar": "lunar",
+        "year": 1899,
+        "month": 11,
+        "day": 1,
+        "time": null,
+        "sex": "M"
+      }
+    },
+    {
+      "id": "G-14",
+      "input": {
+        "calendar": "lunar",
+        "year": 2099,
+        "month": 12,
+        "day": 1,
+        "time": null,
+        "sex": "F"
+      }
+    },
+    {
+      "id": "G-15",
+      "input": {
+        "calendar": "julian",
+        "year": 1990,
+        "month": 6,
+        "day": 15,
+        "time": {
+          "hour": 12,
+          "minute": 0
+        },
+        "sex": "M"
+      }
+    }
+  ]
+}
