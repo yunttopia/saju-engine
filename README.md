@@ -1,4 +1,4 @@
-# saju-manseryeok
+# saju-engine
 
 **Korean saju / manseryeok (만세력) calculator in TypeScript** — the calendar math behind the Four Pillars of Destiny (BaZi, 四柱八字) for births in Korea: Korean lunar calendar conversion, the sexagenary cycle (60 ganji, 干支), the month-opening jeol of the 24 solar terms, Korean time zone history, and daeun (10-year luck pillars).
 
@@ -19,7 +19,7 @@ It is a pure, deterministic calculation library. It is **not fortune-telling**: 
 TypeScript source with extensionless imports: run it with `tsx` or a bundler (plain `node` cannot import it). Not published to npm.
 
 ```sh
-git clone https://github.com/yunttopia/saju-manseryeok && cd saju-manseryeok && npm ci && npm test
+git clone https://github.com/yunttopia/saju-engine && cd saju-engine && npm ci && npm test
 ```
 
 ```ts
@@ -61,7 +61,7 @@ Lunar input: `{ calendar: "lunar", year, month, day, isLeapMonth, ... }`. Unknow
 
 ## 한국어 요약
 
-**saju-manseryeok** 는 한국 기준 **만세력** 계산 라이브러리입니다(TypeScript).
+**saju-engine** 는 한국 기준 **만세력** 계산 라이브러리입니다(TypeScript).
 
 - 생년월일시를 넣으면 **사주팔자**의 네 기둥(연주·월주·일주·시주)을 60갑자로 계산합니다.
 - 양력 ↔ 한국 **음력 변환**(윤달 포함, 1900~2099년)을 합니다.

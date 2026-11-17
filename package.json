@@ -1,5 +1,5 @@
 {
-  "name": "@yunttopia/saju-manseryeok",
+  "name": "@yunttopia/saju-engine",
   "version": "0.1.0",
   "description": "Korean saju / manseryeok (만세력) calculator in TypeScript: Four Pillars of Destiny (BaZi) pillars, Korean lunar calendar, sexagenary cycle (60 ganji), solar terms, daeun luck pillars.",
   "keywords": [
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yunttopia/saju-manseryeok"
+    "url": "https://github.com/yunttopia/saju-engine"
   },
   "type": "module",
   "main": "./src/index.ts",
