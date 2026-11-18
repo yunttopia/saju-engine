@@ -1,5 +1,7 @@
 # saju-engine
 
+[![CI](https://github.com/yunttopia/saju-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/yunttopia/saju-engine/actions/workflows/ci.yml)
+
 **Korean saju / manseryeok (만세력) calculator in TypeScript** — the calendar math behind the Four Pillars of Destiny (BaZi, 四柱八字) for births in Korea: Korean lunar calendar conversion, the sexagenary cycle (60 ganji, 干支), the month-opening jeol of the 24 solar terms, Korean time zone history, and daeun (10-year luck pillars).
 
 Given a birth date and time in Korea, it returns:
